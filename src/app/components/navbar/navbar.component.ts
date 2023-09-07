@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent {
-  navbarItems: string[] = ['Home', 'Products', 'Resources', 'Pricing'];
+  navbarItems: string[] = ['Início', 'Blahbs Em Alta', 'Blahbar', 'Sobre'];
 }
