@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;700&family=Merriweather:wght@300;400;700&family=Roboto:wght@100;300;500;700&display=swap');
+
+.navbar__container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  padding: 1.25rem;
+  gap: 2rem;
+}
+
+.navbar__logo {
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.navbar__logo__slogan__area {
+  padding: .4rem;
+  border: 2px solid #162db7;
+  border-radius: 4rem;
+}
+
+.navbar__logo__text {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #162db7;
+}
+
+.navbar__logo__slogan__text {
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  font-size: .8rem;
+  color: #162db7;
+  font-weight: bold;
+}
+
+.navbar__logo__img {
+  width: 2rem;
+}
+
+.navbar__items {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navbar__items ul {
+  list-style: none;
+  background-color: none;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navbar__items ul li {
+  list-style: none;
+  background-color: none;
+}
+
+.navbar__items ul a {
+  color: #162db7;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+.navbar__menu {
+  width: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

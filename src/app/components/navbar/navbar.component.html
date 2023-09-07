@@ -1,0 +1,21 @@
+<nav class="navbar__container">
+  <div class="navbar__logo">
+    <img src="../../../assets/logo.png" alt="logo" class="navbar__logo__img">
+    <p class="navbar__logo__text">Blah!</p>
+    <div class="navbar__logo__slogan__area">
+      <p class="navbar__logo__slogan__text">Your favorite blog.</p>
+    </div>
+  </div>
+
+  <div class="navbar__items">
+    <ul>
+      <li *ngFor="let navbarItem of navbarItems">
+        <a href="#">{{ navbarItem }}</a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="navbar__menu">
+    <img src="../../../assets/hamburger-menu.png" alt="menu" class="navbar__logo__img">
+  </div>
+</nav>
