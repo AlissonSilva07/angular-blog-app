@@ -17,3 +17,11 @@ body {
   margin: 0rem 1.25rem;
   background-color: var(--main-bg-color);
 }
+
+.small-card__container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  flex-wrap: wrap;
+}

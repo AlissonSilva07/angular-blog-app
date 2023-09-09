@@ -1,0 +1,11 @@
+.small-card__container {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  gap: .6rem;
+}
+
+.small-card__img {
+  max-width: 100%;
+  filter: grayscale(1);
+}
