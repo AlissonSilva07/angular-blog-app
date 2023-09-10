@@ -1,0 +1,11 @@
+.main-content {
+  margin: 0rem 1.25rem;
+}
+
+.small-card__container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  flex-wrap: wrap;
+}

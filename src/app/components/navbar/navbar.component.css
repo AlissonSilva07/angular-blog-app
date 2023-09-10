@@ -54,11 +54,12 @@
 }
 
 .navbar__items ul {
+  width: auto;
   list-style: none;
   background-color: none;
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .navbar__items ul li {
@@ -72,6 +73,10 @@
   text-decoration: none;
 }
 
+.navbar__item {
+  width: .2rem;
+  height: .8rem;
+}
 
 .navbar__menu {
   width: 4rem;

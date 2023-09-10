@@ -1,15 +1,19 @@
 .hero-section__container {
-  margin: 5rem 0rem;
+  margin: 5rem 0rem 2rem;
   padding: 2rem 0rem;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  align-items: center;
   gap: 1rem;
 }
 
 .hero-section__big-text {
   font-size: 3rem;
   font-weight: bold;
+  color: #162db7;
+}
+
+.hero-section__small-text {
   color: #162db7;
 }
 
