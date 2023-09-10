@@ -1,16 +1,18 @@
 <div class="small-card__container">
   <div class="small-card__img-box">
-    <img src="../../../assets/How-to-become-model.jpg" alt="a model" class="small-card__img">
+    <img src="{{ smallCardImage }}" alt="a model" class="small-card__img">
   </div>
   <div class="small-card__title">
-    <h2>Some title</h2>
+    <h2>{{ smallCardTitle }}</h2>
   </div>
   <div class="small-card__subtitle">
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit recusandae totam rem, exercitationem nemo beatae repellat mollitia iste veniam deserunt assumenda esse nihil voluptate quam at quia nesciunt id libero!
+    <p>
+      {{ smallCardSubtitle }}
+    </p>
   </div>
   <div class="small-card__tags">
     <div class="navbar__logo__slogan__area">
-      <p class="navbar__logo__slogan__text">Design</p>
+      <p class="navbar__logo__slogan__text">{{ smallCardTag }}</p>
     </div>
   </div>
 </div>

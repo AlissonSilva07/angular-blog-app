@@ -4,10 +4,10 @@
   flex-direction: column;
   justify-content: flex-end;
   background-color: #162db7;
-  padding: 1rem;
   margin: 2rem 0rem;
   height: 30rem;
   color: white;
+  overflow: hidden;
 }
 
 .big-card__container::after {
@@ -23,9 +23,24 @@
 
 .big-card__inside {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 4rem;
+}
+
+.big-card__img-element {
+  width: 100%;
+}
+
+.img-element {
+  width: 100%;
+  object-fit: contain;
+}
+
+.big-card__txt-elements {
+  display: flex;
   align-items: flex-end;
+  gap: 4rem;
+  padding: 1rem;
 }
 
 .big-card__info {
@@ -37,8 +52,12 @@
 }
 
 .big-card__title {
+  max-width: 80rem;
   font-size: 2.5rem;
   font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .big-card__credits {
